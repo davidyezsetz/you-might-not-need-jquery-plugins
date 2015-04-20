@@ -1,5 +1,7 @@
-# you-might-not-need-jquery-plugins
-In addition to [youmightnotneedjquery.com](http://youmightnotneedjquery.com/) this is a list of commonly used plugins without dependencies
+# You might not need jQuery plugins
+When [youmightnotneedjquery](http://youmightnotneedjquery.com/) you also might not need jQuery plugins.
+This list will start out with personal preferences, but since the goal is to have a generic list
+all input is welcome. See also the [lazyweb-request](https://github.com/h5bp/lazyweb-requests)
 
 ## Slider, Carousel
 
