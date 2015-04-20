@@ -4,3 +4,7 @@ In addition to [youmightnotneedjquery.com](http://youmightnotneedjquery.com/) th
 ## Slider
 
 - [lory](http://meandmax.github.io/lory/)
+
+## Tooltip
+
+- [opentip](https://github.com/enyo/opentip)
