@@ -30,3 +30,7 @@ In addition to [youmightnotneedjquery.com](http://youmightnotneedjquery.com/) th
 ## Date picker
 
 ## Accordion
+
+## Autocomplete
+
+- [awesomplete](https://github.com/LeaVerou/awesomplete)
