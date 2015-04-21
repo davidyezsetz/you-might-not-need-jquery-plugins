@@ -40,3 +40,5 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 | [awesomplete](https://github.com/LeaVerou/awesomplete) | tbd | tbd | tbd |
 | __Lazy Loading__                            |
 | [layzr](https://github.com/callmecavs/layzr.js) | yes | with a shim | no |
+| __Sorting / Drag and Drop__                 |
+| [dragula](http://bevacqua.github.io/dragula/) | yes | yes | yes |
