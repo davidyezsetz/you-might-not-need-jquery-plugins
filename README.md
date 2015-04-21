@@ -16,7 +16,8 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 | __Thumbnail gallery__                       |
 | [jssor](https://github.com/jssor/slider)| yes | yes | yes |
 | __Scroller__                                |
-|-------------|---------|----------|----------|
+| [scrollerjs](https://github.com/forcedotcom/scrollerjs)| tbd | tbd | tbd |
+| [tinyscrollbar](https://github.com/wieringen/tinyscrollbar)| yes | yes | no  |
 | __Lightbox__                                |
 |-------------|---------|----------|----------|
 | __Tooltip__                                 |
