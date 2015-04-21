@@ -31,7 +31,7 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 | __(Responsive) Menu__                       |
 |-------------|---------|----------|----------|
 | __Validation__                              |
-|-------------|---------|----------|----------|
+| [validate.js](https://github.com/rickharrison/validate.js/) | yes | yes | yes |
 | __Modal / Popup__                           |
 |-------------|---------|----------|----------|
 | __Date picker__                             |
