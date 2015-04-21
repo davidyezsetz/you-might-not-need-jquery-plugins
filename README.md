@@ -35,7 +35,7 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 | __Modal / Popup__                           |
 |-------------|---------|----------|----------|
 | __Date picker__                             |
-|-------------|---------|----------|----------|
+| [pikaday](https://github.com/dbushell/Pikaday) | yes | yes | yes |
 | __Accordion__                               |
 |-------------|---------|----------|----------|
 | __Autocomplete__                            |
