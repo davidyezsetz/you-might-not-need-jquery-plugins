@@ -42,3 +42,4 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 | [layzr](https://github.com/callmecavs/layzr.js) | yes | with a shim | no |
 | __Sorting / Drag and Drop__                 |
 | [dragula](http://bevacqua.github.io/dragula/) | yes | yes | yes |
+| [sortable](https://github.com/RubaXa/Sortable) | yes | yes | no |
