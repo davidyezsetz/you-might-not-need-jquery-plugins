@@ -12,8 +12,9 @@ The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) &
 |-------------|---------|----------|----------|
 | __Slider, Carousel__                        |
 | [lory](http://meandmax.github.io/lory/) | yes | no | no |
+| [jssor](https://github.com/jssor/slider)| yes | yes | yes |
 | __Thumbnail gallery__                       |
-|-------------|---------|----------|----------|
+| [jssor](https://github.com/jssor/slider)| yes | yes | yes |
 | __Scroller__                                |
 |-------------|---------|----------|----------|
 | __Lightbox__                                |
