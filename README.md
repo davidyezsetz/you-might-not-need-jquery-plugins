@@ -3,11 +3,14 @@ When [youmightnotneedjquery](http://youmightnotneedjquery.com/) you also might n
 This list will start out with personal preferences, but since the goal is to have a generic list
 all input is welcome.
 
-## Credits:
+## Website
+[youmightnotneedjqueryplugins](http://davidyezsetz.github.io/you-might-not-need-jquery-plugins/)
+
+## Credits
 The idea for this came from [Lea Verou](https://github.com/LeaVerou) and was discussed at the [lazyweb-request repo](https://github.com/h5bp/lazyweb-requests)
 The groundwork for this was done by [Zack Bloom](https://github.com/zackbloom) & [Adam Schwartz](https://github.com/adamschwartz) in the [youmightnotneedjquery project](https://github.com/HubSpot/youmightnotneedjquery/graphs/contributors)
 
-## Plugins:
+## Plugins
 | Plugin      |IE 10    | IE 9     | IE 8     |
 |-------------|---------|----------|----------|
 | __Slider, Carousel__                        |
