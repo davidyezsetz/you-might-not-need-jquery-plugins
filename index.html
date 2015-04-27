@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
-
-<ul class="posts">
-  {% for post in site.posts %}
-  <li class="entry" data-ie8="{{ post.ie8 }}" data-ie9="{{ post.ie9 }}" data-ie10="{{ post.ie10 }}">
-    {{ post.title}}: {{ post.content }}
-  </li>
+<section id="js_plugins"><input class="search" placeholder="I'm looking for ..." list="categories">
+  <datalist id="categories">
+  {% for category in site.categories %}
+    <option value="{{ category | first }}">  
   {% endfor %}
-</ul>
+  </datalist>
+
+  <ul class="list">
+    {% for post in site.posts %}
+    <li class="entry" data-ie8="{{ post.ie8 }}" data-ie9="{{ post.ie9 }}" data-ie10="{{ post.ie10 }}">
+      <span class="name">{{ post.title}}: {{ post.content }}</span>
+      <span class="categories">{{ post.categories }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+

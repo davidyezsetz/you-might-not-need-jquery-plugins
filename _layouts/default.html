@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>{{ site.title }} – {{ site.description }}</title>
+    <meta charset="UTF-8">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -9,15 +10,12 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
-
   <body>
-    <p>Categories: 
-    {% for category in site.categories %}
-        {{ category | first }}
-    {% endfor %}
-    </p>
+
     {{ content }}
 
     {% include analytics.html %}
+    <script src="scripts/lists.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
