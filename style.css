@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 50px 0;
+
+  background: #FFF6EE;
+  color: #317C7C;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 50px;
+
+  text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.controls {
+  margin: 0 auto 50px;
+  width: 300px;
+}
+
+.search {
+  padding: 0 20px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid #FFD4B1;
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  color: #F9BB88;
+  font-size: 22px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.list__entry {
+  position: relative;
+
+  margin-bottom: 25px;
+
+  border-radius: 10px;
+  background: #9d9;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3);
+  transition: background .2s ease-in-out;
+}
+
+.list__entry:hover {
+  background: #6DC76D;
+}
+
+.list__entry:nth-child(2n+1) {
+  background: #81BBBB;
+}
+
+.list__entry:nth-child(2n+1):hover {
+  background: #529595;
+}
+
+.list__entry:before {
+  position: absolute;
+  top: 10%;
+  left: calc(25% + 10px);
+
+  width: 1px;
+  height: 80%;
+
+  background: #FFF6EE;
+  content: "";
+}
+
+.list__entry__link {
+  position: relative;
+
+  display: block;
+  padding: 25px;
+
+  color: #317C7C;
+  text-decoration: none;
+}
+
+.list__entry:nth-child(2n+1) .list__entry__link {
+  color: #E9FAE9;
+}
+
+.list__entry__name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 25%;
+
+  font-size: 30px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.list__entry__description {
+  display: inline-block;
+  margin: 0 0 25px 25%;
+  padding: 0 0 0 20px;
+  width: calc(75% - 25px);
+
+  text-align: left;
+}
+
+.list__entry__categories {
+  display: inline-block;
+  margin: 0px 0 0 25%;
+  padding: 0 0 0 20px;
+  width: calc(75% - 25px);
+
+  list-style-type: none;
+  text-align: left;
+}
+
+.list__entry__categories li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #FFF6EE;
+}
+
+.list__entry__categories li:first-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.list__entry__categories li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
