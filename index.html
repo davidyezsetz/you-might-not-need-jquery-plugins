@@ -1,18 +1,32 @@
 ---
 layout: default
 ---
-<section id="js_plugins"><input class="search" placeholder="I'm looking for ..." list="categories">
-  <datalist id="categories">
-  {% for category in site.categories %}
-    <option value="{{ category | first }}">  
-  {% endfor %}
-  </datalist>
+<h1>You might not need jQuery plugins</h1>
+<section class="wrapper" id="js_plugins">
+  <div class="controls">
+    <input class="search" placeholder="I'm looking for ..." list="categories">
+    <datalist id="categories">
+    {% for category in site.categories %}
+      <option value="{{ category | first }}">  
+    {% endfor %}
+    </datalist>
+  </div>
 
   <ul class="list">
     {% for post in site.posts %}
-    <li class="entry" data-ie8="{{ post.ie8 }}" data-ie9="{{ post.ie9 }}" data-ie10="{{ post.ie10 }}">
-      <span class="name">{{ post.title}}: {{ post.content }}</span>
-      <span class="categories">{{ post.categories }}</span>
+    <li class="list__entry" data-ie8="{{ post.ie8 }}" data-ie9="{{ post.ie9 }}" data-ie10="{{ post.ie10 }}">
+      <a class="list__entry__link" href="{{ post.link }}">
+        <span class="list__entry__name js_plugin-name">{{ post.title}}</span>
+        <span class="list__entry__description">{{ post.content | remove: '<p>' | remove: '</p>' }}</span>
+        <ul class="list__entry__categories js_plugin-categories">
+            <li>Categories:</li>
+          {% for category in post.categories %}
+            <li>
+            {{ category }} 
+            </li>
+          {% endfor %}
+        </ul>
+      </a>
     </li>
     {% endfor %}
   </ul>

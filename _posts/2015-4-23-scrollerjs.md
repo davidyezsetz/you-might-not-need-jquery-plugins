@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: default 
 title: scrollerjs
+link: https://github.com/forcedotcom/scrollerjs
 ie8: tbd
 ie9: tbd
 ie10: tbd
 categories: [Scroller]
 ---
-[scrollerjs](https://github.com/forcedotcom/scrollerjs)
+A JavaScript library that helps you build performant UI components for the web
