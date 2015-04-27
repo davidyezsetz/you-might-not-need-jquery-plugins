@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  margin: 0 0 50px;
+  margin: 0 0 48px;
 
   text-transform: uppercase;
 }
@@ -21,19 +21,51 @@ h1 {
 
 .controls {
   margin: 0 auto 50px;
-  width: 300px;
+  width: 500px;
 }
 
 .search {
+  display: inline-block;
   padding: 0 20px;
   width: 250px;
   height: 50px;
   border: 2px solid #FFD4B1;
+  vertical-align: bottom;
 
   border-radius: 10px;
   box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
   color: #F9BB88;
   font-size: 22px;
+}
+
+.select-style {
+  display: inline-block;
+  margin-left: 25px;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  border: 2px solid #FFD4B1;
+  vertical-align: bottom;
+
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.select-style select {
+  padding: 12px 25px 13px;
+  
+  border: none;
+  box-shadow: none;
+
+  background-color: transparent;
+  background-image: none;
+
+  color: #F9BB88;
+  font-size: 22px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .list {
@@ -51,7 +83,7 @@ h1 {
   border-radius: 10px;
   background: #9d9;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3);
-  transition: background .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .list__entry:hover {
