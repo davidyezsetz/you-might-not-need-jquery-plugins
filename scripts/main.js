@@ -4,7 +4,7 @@
   'use strict';
 
   var options = {
-    valueNames: [ 'js_plugin-name', 'js_plugin-categories' ]
+    valueNames: [ 'js_plugin-name', 'js_plugin-categories', 'js_plugin-replaces' ]
   };
 
   var userList = new List('js_plugins', options);

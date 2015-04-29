@@ -10,6 +10,11 @@ layout: default
       {% for category in site.categories %}
         <option value="{{ category | first }}">  
       {% endfor %}
+      {% for post in site.posts %}
+        {% for plugin in post.replaces %}
+          <option value="{{ plugin }}">  
+        {% endfor %}
+      {% endfor %}
       </datalist>
       <div class="select-style">
         <select id="js_select-ie">
@@ -31,6 +36,14 @@ layout: default
             {% for category in post.categories %}
               <li>
               {{ category }} 
+              </li>
+            {% endfor %}
+          </ul>
+          <ul class="list__entry__replaces js_plugin-replaces">
+              <li>Replaces:</li>
+            {% for plugin in post.replaces %}
+              <li>
+              {{ plugin }} 
               </li>
             {% endfor %}
           </ul>

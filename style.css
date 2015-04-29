@@ -161,7 +161,7 @@ a:hover, a:active {
   text-align: left;
 }
 
-.list__entry__categories {
+.list__entry__categories, .list__entry__replaces {
   display: inline-block;
   margin: 0px 0 0 25%;
   padding: 0 0 0 20px;
@@ -171,21 +171,22 @@ a:hover, a:active {
   text-align: left;
 }
 
-.list__entry__categories li {
+.list__entry__categories {
+  margin-bottom: 10px;
+}
+
+.list__entry__categories li, .list__entry__replaces li {
   display: inline-block;
-  margin-right: 5px;
   padding-right: 5px;
   border-right: 1px solid #FFF6EE;
 }
 
-.list__entry__categories li:first-child {
-  margin-right: 0;
+.list__entry__categories li:first-child, .list__entry__replaces li:first-child {
   padding-right: 0;
   border-right: none;
 }
 
-.list__entry__categories li:last-child {
-  margin-right: 0;
+.list__entry__categories li:last-child, .list__entry__replaces li:last-child {
   padding-right: 0;
   border-right: none;
 }
