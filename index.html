@@ -28,7 +28,7 @@ layout: default
     <ul class="list">
       {% for post in site.posts %}
       <li class="list__entry js_plugin" data-ie8="{{ post.ie8 }}" data-ie9="{{ post.ie9 }}" data-ie10="{{ post.ie10 }}">
-        <a class="list__entry__link" href="{{ post.link }}">
+        <a class="list__entry__link" href="{{ post.link }}" target="_blank">
           <span class="list__entry__name js_plugin-name">{{ post.title}}</span>
           <span class="list__entry__description">{{ post.content | remove: '<p>' | remove: '</p>' }}</span>
           <ul class="list__entry__categories js_plugin-categories">
