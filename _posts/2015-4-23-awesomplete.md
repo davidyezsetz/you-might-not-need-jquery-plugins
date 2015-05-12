@@ -6,6 +6,6 @@ ie8: tbd
 ie9: tbd 
 ie10: tbd 
 categories: [autocomplete]
-replaces: [jquery-autocomplete, jquery-ui]
+tags: [jquery-autocomplete, jquery-ui]
 ---
 Ultra lightweight, usable, beautiful autocomplete with zero dependencies.

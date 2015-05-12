@@ -6,6 +6,6 @@ ie8: tbd
 ie9: tbd 
 ie10: tbd 
 categories: [animation]
-replaces: [jquery-underline]
+tags: [jquery-underline]
 ---
 Pushing the boundary of browser typography rendering!

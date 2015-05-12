@@ -6,6 +6,6 @@ ie8: false
 ie9: true
 ie10: true
 categories: [Scroller]
-replaces: [jquery-custom-content-scroller, nanoscroller]
+tags: [jquery-custom-content-scroller, nanoscroller]
 ---
 A lightweight cross browser javascript scrollbar

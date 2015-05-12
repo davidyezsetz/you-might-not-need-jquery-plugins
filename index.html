@@ -10,10 +10,8 @@ layout: default
       {% for category in site.categories %}
         <option value="{{ category | first }}">  
       {% endfor %}
-      {% for post in site.posts %}
-        {% for plugin in post.replaces %}
-          <option value="{{ plugin }}">  
-        {% endfor %}
+      {% for tag in site.tags %}
+        <option value="{{ tag | first }}">  
       {% endfor %}
       </datalist>
       <div class="select-style">
