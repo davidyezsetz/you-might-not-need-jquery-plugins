@@ -6,5 +6,6 @@ ie8: true
 ie9: true
 ie10: true
 categories: [Validation]
+replaces: [jqueryvalidation]
 ---
 Lightweight JavaScript form validation library inspired by CodeIgniter
