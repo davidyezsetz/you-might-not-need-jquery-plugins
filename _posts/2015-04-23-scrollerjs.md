@@ -1,7 +1,7 @@
 ---
-layout: default 
+layout: default
 title: scrollerjs
-link: https://github.com/forcedotcom/scrollerjs
+link: "https://github.com/forcedotcom/scrollerjs"
 ie8: tbd
 ie9: tbd
 ie10: tbd
