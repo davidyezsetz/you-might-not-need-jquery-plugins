@@ -13,10 +13,16 @@ section {
 }
 
 h1 {
-  margin: 0 0 48px;
+  margin: 0 0 28px;
 
   font-weight: 400;
   text-transform: uppercase;
+}
+
+h2 {
+  margin: 0 0 20px;
+
+  font-weight: 400;
 }
 
 a, a:visited {
@@ -189,4 +195,8 @@ a:hover, a:active {
 .list__entry__categories li:last-child, .list__entry__replaces li:last-child {
   padding-right: 0;
   border-right: none;
+}
+
+.hidden {
+  display: none;
 }

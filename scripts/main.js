@@ -67,4 +67,8 @@
   
   // preselect ie10
   hideIE10();
+  if (window.location.href === 'http://davidyezsetz.github.io/you-might-not-need-jquery-plugins/') {
+    var info = document.getElementById('js_info');
+    info.style.display = "block";
+  }
 })(List);
