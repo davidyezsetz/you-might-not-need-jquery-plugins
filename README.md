@@ -4,7 +4,7 @@ This list will start out with personal preferences, but since the goal is to hav
 all input is welcome.
 
 ## Website
-[youmightnotneedjqueryplugins](http://davidyezsetz.github.io/you-might-not-need-jquery-plugins/)
+[youmightnotneedjqueryplugins.com](http://youmightnotneedjqueryplugins.com)
 
 ## Contribute
 If you think a plugin should be added please file a pull request or create an issue. 
