@@ -9,10 +9,10 @@ layout: default
       <input class="search" placeholder="I'm looking for ..." list="categories">
       <datalist id="categories">
       {% for category in site.categories %}
-        <option value="{{ category | first }}">  
+        <option value="{{ category | first }}">
       {% endfor %}
       {% for tag in site.tags %}
-        <option value="{{ tag | first }}">  
+        <option value="{{ tag | first }}">
       {% endfor %}
       </datalist>
       <div class="select-style">
@@ -34,7 +34,7 @@ layout: default
               <li>Categories:</li>
             {% for category in post.categories %}
               <li>
-              {{ category }} 
+              {{ category }}
               </li>
             {% endfor %}
           </ul>
@@ -42,7 +42,7 @@ layout: default
               <li>Replaces:</li>
             {% for plugin in post.tags %}
               <li>
-              {{ plugin }} 
+              {{ plugin }}
               </li>
             {% endfor %}
           </ul>
@@ -51,6 +51,6 @@ layout: default
       {% endfor %}
     </ul>
   </section>
-  <p>N.B. These plugins are no one to one replacements, but offer similiar functionality</p>
+  <p>N.B. These plugins are not one-to-one replacements, but offer similiar functionality</p>
   <p><a href="https://github.com/davidyezsetz/you-might-not-need-jquery-plugins" target="_blank">Contribute</a> | <a href="http://youmightnotneedjquery.com/" target="_blank">You might not need jQuery</a></p>
 </div>
