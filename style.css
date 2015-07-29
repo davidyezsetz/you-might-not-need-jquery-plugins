@@ -122,7 +122,7 @@ a:hover, a:active {
 .list__entry:before {
   position: absolute;
   top: 10%;
-  left: calc(25% + 10px);
+  left: 28%;
 
   width: 1px;
   height: 80%;
