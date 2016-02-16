@@ -2,9 +2,9 @@
 layout: default
 title: clusterize
 link: "https://github.com/NeXTs/Clusterize.js"
-ie8: tbd
-ie9: tbd
-ie10: tbd
+ie8: true
+ie9: true
+ie10: true
 categories: [Scroll]
 tags: [data]
 ---
