@@ -8,4 +8,4 @@ ie10: true
 categories: [Drag, Select, Selection]
 tags: [Selectable, jquery-selectable, jquery-ui]
 ---
-Easy javascript selection functionality done right. Mimics operating system file selection behaviour.
+Easy javascript selection functionality done right. Mimics operating system file selection behavior.
